@@ -19,14 +19,14 @@ Code for the development of the easyCLIP method and the analysis of easyCLIP dat
 [Datasets and GEO upload](doc/README_datasets.md)
 
 Code is divided into jupyter notebooks stored in dataAndScripts/,
- a scripts for passing commands on a server,
+ scripts for passing commands on a server,
  and everything else, stored in sameRiver/.
 
 Currently processing before analysis is built around submitting jobs on a server because of the
  high RAM required for STAR.
 Analysis is built around Jupyter notebooks expected to be run locally on 
- (1) annotated counts files, (2) bed files, (3) bedgraph files, and
- (4) a scheme file -
+ (1) annotated counts files, (2) bedgraph files, and
+ (3) a scheme file -
  all but the last of these are built by server commands. 
 
 The current pipeline is:
@@ -34,7 +34,7 @@ The current pipeline is:
  -> a main_x.py script that makes an exp object and processes 
  -> output the counts/bed/bedgraph file for analysis.
 
-Our scheme.xlsx file is included.
+A scheme.xlsx file is included.
 
 ```bash
 # Dependencies.
