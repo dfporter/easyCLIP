@@ -42,7 +42,7 @@ A scheme.xlsx file is included.
 pip install numpy scipy cutadapt pandas statsmodels xlrd dill
 pip install HTSeq openpyxl
 
-git clone https://github.com/dfporter/easyCLIP-dev
+git clone https://github.com/dfporter/easyCLIP
 git clone https://github.com/dfporter/RepEnrich2.git --branch py3
 ```
 
