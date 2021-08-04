@@ -27,7 +27,7 @@ NEWER:
 
 ```bash
 git clone https://github.com/dfporter/RepEnrich2.git --branch py3
-git clone https://github.com/dfporter/easyCLIP-dev
+git clone https://github.com/dfporter/easyCLIP
 ```
 From https://drive.google.com/drive/folders/0B8_2gE04f4QWNmdpWlhaWEYwaHM, download
  hg38_repeatmasker_clean.txt.gz.
@@ -60,7 +60,7 @@ python sameRiver/gtf.py gencode.v29.primary_assembly.annotation.gtf
 
 ```python
 import sys, importlib
-sys.path.append('./easyCLIP-dev')  # Wherever sameRiver is put.
+sys.path.append('./easyCLIP')  # Wherever sameRiver is put.
 import sameRiver
 import sameRiver.mapping
 importlib.reload(sameRiver.mapping)
