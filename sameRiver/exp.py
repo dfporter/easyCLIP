@@ -127,8 +127,8 @@ class exp(sameRiver.mapping.mappingMethods):
             'STAR index': '/oak/stanford/groups/khavari/users/dfporter/genome/GRCh38.gencode.29/star_index',
             'STAR': 'STAR',
             'bowtie2': 'bowtie2',
-            'bowtie2 repeats index': '/oak/stanford/groups/khavari/users/dfporter/easyCLIP-dev/RepEnrich2/hg38re',
-            'repeats annotation': '/oak/stanford/groups/khavari/users/dfporter/easyCLIP-dev/RepEnrich2/collapsed_by_family_hg38_repeatmasker_clean.txt',
+            'bowtie2 repeats index': '/oak/stanford/groups/khavari/users/dfporter/easyCLIP/RepEnrich2/hg38re',
+            'repeats annotation': '/oak/stanford/groups/khavari/users/dfporter/easyCLIP/RepEnrich2/collapsed_by_family_hg38_repeatmasker_clean.txt',
             'STAR repeats index': '/oak/stanford/groups/khavari/users/dfporter/genome/repeats/star_repeats',
         }
         return file_paths
@@ -146,10 +146,10 @@ class exp(sameRiver.mapping.mappingMethods):
         self.file_paths.setdefault('bowtie2', 'bowtie2')
         self.file_paths.setdefault(
             'bowtie2 repeats index', 
-            '/oak/stanford/groups/khavari/users/dfporter/easyCLIP-dev/RepEnrich2/hg38re')
+            '/oak/stanford/groups/khavari/users/dfporter/easyCLIP/RepEnrich2/hg38re')
         self.file_paths.setdefault(
             'repeats annotation',
-            '/oak/stanford/groups/khavari/users/dfporter/easyCLIP-dev/RepEnrich2/collapsed_by_family_hg38_repeatmasker_clean.txt')
+            '/oak/stanford/groups/khavari/users/dfporter/easyCLIP/RepEnrich2/collapsed_by_family_hg38_repeatmasker_clean.txt')
         self.file_paths.setdefault('R1_fastq', self.file_paths['fastq'] + '/raw/R1.fastq')
         self.file_paths.setdefault('R2_fastq', self.file_paths['fastq'] + '/raw/R2.fastq')
         self.file_paths.setdefault('r1_split', self.file_paths['fastq'] + '/r1_split/')
