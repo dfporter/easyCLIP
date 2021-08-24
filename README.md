@@ -2,6 +2,9 @@
 
 Code for the development of the easyCLIP method and the analysis of easyCLIP datasets.
 
+A reproducible workflow intended to be easily usable is being constructed in snakemake in a separate repository:
+https://github.com/dfporter/easyclip-snakemake
+
 ## Organization
 
 [Genome build](doc/README_genome.md)
